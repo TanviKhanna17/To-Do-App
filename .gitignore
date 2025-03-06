@@ -1,0 +1,56 @@
+# Ignore Maven target directory
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### STS (Spring Tool Suite) ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings/
+.springBeans/
+.sts4-cache/
+
+### IntelliJ IDEA ###
+.idea/
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+
+### OS-Specific Files ###
+.DS_Store
+Thumbs.db
+
+### Logs and Temp Files ###
+*.log
+*.tmp
+
+### Ignore application properties (Sensitive credentials) ###
+src/main/resources/application.properties
+src/main/resources/application.yml
+.env
+
+### Ignore Lombok configuration ###
+lombok.config
+
+### Ignore dependency caches ###
+/.gradle/
+/.m2/
+
+### Ignore test reports ###
+/test-output/
