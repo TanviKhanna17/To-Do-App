@@ -54,3 +54,4 @@ lombok.config
 
 ### Ignore test reports ###
 /test-output/
+
